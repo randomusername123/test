@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/IMG/favicon.ico" />
+    <title>The Saudi Cables</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/cerulean.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/new-gen.css" rel="stylesheet">
+
+    <link href="/assets/marker.css" rel="stylesheet">
+    <link href="/assets/custom.css" rel="stylesheet">
+
+    <link href="/bootstrap/css/submit.css" rel="stylesheet">
+    <script language="javascript">
+    function toggle() {
+        var ele = document.getElementById("toggleText");
+        var text = document.getElementById("displayText");
+        if(ele.style.display == "block") {
+            ele.style.display = "none";
+            text.innerHTML = "Show table of contents";
+        }
+        else {
+            ele.style.display = "block";
+            text.innerHTML = "Hide table of contents";
+        }
+    }
+    </script>
+    <style>
+    #recent li {
+        margin: 0 0 10px 0;
+    }
+    .searchbutton {
+        clear: both;
+        background-color: #007AC3;
+        color: #fff !important;
+        border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.1);
+        padding: 7px 15px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+        border-radius: 6px;
+        text-align: center;
+        cursor: pointer;
+        line-height: 20px;
+        vertical-align: middle;
+        border-width: 1px;
+        border-style: solid;
+        display: inline-block;
+    }
+    .sbinv {
+        color: #007AC3 !important;
+        background-color: #fff;
+        border-color: #007AC3;
+        border-width: 3px;
+    }
+    .paginator {
+	    margin: 0px auto;
+	    text-align: center;
+    }
+    .efm-hi {
+	    color: #000 !important;
+    }
+    .cal-month {
+	    height: 250px;
+    }
+    .calendar-month-header {
+	    display: none;
+    }
+    .calendar-dow td {
+	    font-size: small;
+	    padding: 0px !important;
+    }
+    #cal_overall h3 {
+	    padding: 5px;
+    }
+    .highlight {
+	    border: 1px solid #ddd;
+    }
+    #releasebar ul {
+        margin: 0;
+    }
+    #releasebar li {
+        display: inline;
+        border-left: 1px solid #e1e1e1;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div id="submit_wlkey" class="submit_elem">
+        <div class="container">
+            <div class="text-center"><div class="submit_buttons btn-group" role="group">
+                <a href="#submit_help_contact" class="btn-wl btn-wl-empty">How to contact WikiLeaks?</a>
+                <a href="#submit_help_tor" class="btn-wl btn-wl-empty">What is Tor?</a>
+                <a href="#submit_help_tips" class="btn-wl btn-wl-empty">Tips for Sources</a>
+                <a href="#submit_help_after" class="btn-wl btn-wl-empty">After Submitting</a>
+            </div></div>
+            <p>This key’s fingerprint is A04C 5E09 ED02 B328 03EB 6116 93ED 732E 9231 8DBA</p>
+            <pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQQNBFUoCGgBIADFLp+QonWyK8L6SPsNrnhwgfCxCk6OUHRIHReAsgAUXegpfg0b
+rsoHbeI5W9s5to/MUGwULHj59M6AvT+DS5rmrThgrND8Dt0dO+XW88bmTXHsFg9K
+jgf1wUpTLq73iWnSBo1m1Z14BmvkROG6M7+vQneCXBFOyFZxWdUSQ15vdzjr4yPR
+oMZjxCIFxe+QL+pNpkXd/St2b6UxiKB9HT9CXaezXrjbRgIzCeV6a5TFfcnhncpO
+ve59rGK3/az7cmjd6cOFo1Iw0J63TGBxDmDTZ0H3ecQvwDnzQSbgepiqbx4VoNmH
+OxpInVNv3AAluIJqN7RbPeWrkohh3EQ1j+lnYGMhBktX0gAyyYSrkAEKmaP6Kk4j
+/ZNkniw5iqMBY+v/yKW4LCmtLfe32kYs5OdreUpSv5zWvgL9sZ+4962YNKtnaBK3
+1hztlJ+xwhqalOCeUYgc0Clbkw+sgqFVnmw5lP4/fQNGxqCO7Tdy6pswmBZlOkmH
+XXfti6hasVCjT1MhemI7KwOmz/KzZqRlzgg5ibCzftt2GBcV3a1+i357YB5/3wXE
+j0vkd+SzFioqdq5Ppr+//IK3WX0jzWS3N5Lxw31q8fqfWZyKJPFbAvHlJ5ez7wKA
+1iS9krDfnysv0BUHf8elizydmsrPWN944Flw1tOFjW46j4uAxSbRBp284wiFmV8N
+TeQjBI8Ku8NtRDleriV3djATCg2SSNsDhNxSlOnPTM5U1bmh+Ehk8eHE3hgn9lRp
+2kkpwafD9pXaqNWJMpD4Amk60L3N+yUrbFWERwncrk3DpGmdzge/tl/UBldPoOeK
+p3shjXMdpSIqlwlB47Xdml3Cd8HkUz8r05xqJ4DutzT00ouP49W4jqjWU9bTuM48
+LRhrOpjvp5uPu0aIyt4BZgpce5QGLwXONTRX+bsTyEFEN3EO6XLeLFJb2jhddj7O
+DmluDPN9aj639E4vjGZ90Vpz4HpN7JULSzsnk+ZkEf2XnliRody3SwqyREjrEBui
+9ktbd0hAeahKuwia0zHyo5+1BjXt3UHiM5fQN93GB0hkXaKUarZ99d7XciTzFtye
+/MWToGTYJq9bM/qWAGO1RmYgNr+gSF/fQBzHeSbRN5tbJKz6oG4NuGCRJGB2aeXW
+TIp/VdouS5I9jFLapzaQUvtdmpaeslIos7gY6TZxWO06Q7AaINgr+SBUvvrff/Nl
+l2PRPYYye35MDs0b+mI5IXpjUuBC+s59gI6YlPqOHXkKFNbI3VxuYB0VJJIrGqIu
+Fv2CXwy5HvR3eIOZ2jLAfsHmTEJhriPJ1sUG0qlfNOQGMIGw9jSiy/iQde1u3ZoF
+so7sXlmBLck9zRMEWRJoI/mgCDEpWqLX7hTTABEBAAG0x1dpa2lMZWFrcyBFZGl0
+b3JpYWwgT2ZmaWNlIEhpZ2ggU2VjdXJpdHkgQ29tbXVuaWNhdGlvbiBLZXkgKFlv
+dSBjYW4gY29udGFjdCBXaWtpTGVha3MgYXQgaHR0cDovL3dsY2hhdGMzcGp3cGxp
+NXIub25pb24gYW5kIGh0dHBzOi8vd2lraWxlYWtzLm9yZy90YWxrKSA8Y29udGFj
+dC11cy11c2luZy1vdXItY2hhdC1zeXN0ZW1Ad2lraWxlYWtzLm9yZz6JBD0EEwEK
+ACcFAlUoCGgCGwMFCQHhM4AFCwkIBwMFFQoJCAsFFgIDAQACHgECF4AACgkQk+1z
+LpIxjboZYx/8CmUWTcjD4A57CgPRBpSCKp0MW2h4MZvRlNXe5T1F8h6q2dJ/QwFU
+mM3Dqfk50PBd8RHp7j5CQeoj/AXHrQT0oOso7f/5ldLqYoAkjJrOSHo4QjX0rS72
+NeexCh8OhoKpmQUXet4XFuggsOg+L95eTZh5Z4v7NMwuWkAh12fqdJeFW5FjLmET
+z3v00hRHvqRCjuScO4gUdxFYOnyjeGre+0v2ywPUkR9dHBo4NNzVl87i3ut9adMG
+zI2ZQkd+gGhEHODO/8SW3pXbRiIzljrwZT/bASobyiCnSeYOhycpBvx4I4kood0b
+6Btm2mLPOzfdMIz1/eWoYgYWTc5dSC5ckoklJOUpraXwpy3DQMU3bSSnNEFGkeu/
+QmMHrOyLmw837PRfPl1ehzo8UMG0tHNS58n5unZ8pZqxd+3elX3D6XCJHw4HG/4B
+iKofLJqYeGPIhgABI5fBh3BhbLz5qixMDaHMPmHHj2XK7KPohwuDUw0GMhkztbA7
+8VqiN1QH3jRJEeR4XrUUL9o5day05X2GNeVRoMHGLiWNTtp/9sLdYq8XmDeQ3Q5a
+wb1u5O3fWf5k9mh6ybD0Pn0+Q18iho0ZYLHA3X46wxJciPVIuhDCMt1x5x314pF0
++w32VWQfttrg+0o5YOY39SuZTRYkW0zya9YA9G8pCLgpWlAk3Qx1h4uq/tJTSpIK
+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
+KG6G6aDu8XTk/eHSgzmc29s4BBQ=
+=/E/j
+-----END PGP PUBLIC KEY BLOCK-----
+            </pre>
+        </div>
+    </div>
+
+    <div id="submit_help_contact" class="submit_elem">
+        <div class="container">
+            <div class="text-center"><div class="submit_buttons btn-group" role="group">
+                <a href="#submit_help_contact" class="btn-wl">How to contact WikiLeaks?</a>
+                <a href="#submit_help_tor" class="btn-wl btn-wl-empty">What is Tor?</a>
+                <a href="#submit_help_tips" class="btn-wl btn-wl-empty">Tips for Sources</a>
+                <a href="#submit_help_after" class="btn-wl btn-wl-empty">After Submitting</a>
+            </div></div>
+
+            <h3>Contact</h3>
+            <p>If you need help using Tor you can contact WikiLeaks for assistance in setting it up using our simple webchat available at: <a href="https://wikileaks.org/talk">https://wikileaks.org/talk</a></p>
+            <p>If you can use Tor, but need to contact WikiLeaks for other reasons use our secured webchat available at <b>http://wlchatc3pjwpli5r.onion</b></p>
+            <p>We recommend contacting us over Tor if you can.</p>
+        </div>
+    </div>
+
+    <div id="submit_help_tor" class="submit_elem">
+        <div class="container">
+            <div class="text-center"><div class="submit_buttons btn-group" role="group">
+                <a href="#submit_help_contact" class="btn-wl btn-wl-empty">How to contact WikiLeaks?</a>
+                <a href="#submit_help_tor" class="btn-wl">What is Tor?</a>
+                <a href="#submit_help_tips" class="btn-wl btn-wl-empty">Tips for Sources</a>
+                <a href="#submit_help_after" class="btn-wl btn-wl-empty">After Submitting</a>
+            </div></div>
+
+            <h3>Tor</h3>
+            <p><a href="https://www.torproject.org">Tor</a> is an encrypted anonymising network that makes it harder to intercept internet communications, or see where communications are coming from or going to.</p>
+            <p>In order to use the WikiLeaks public submission system as detailed above you can download the Tor Browser Bundle, which is a Firefox-like browser available for Windows, Mac OS X and GNU/Linux and pre-configured to connect using the anonymising system Tor.</p>
+            <h4>Tails</h4>
+            <p>If you are at high risk and you have the capacity to do so, you can also access the submission system through a secure operating system called <a href="https://tails.boum.org">Tails</a>. Tails is an operating system launched from a USB stick or a DVD that aim to leaves no traces when the computer is shut down after use and automatically routes your internet traffic through Tor. Tails will require you to have either a USB stick or a DVD at least 4GB big and a laptop or desktop computer.</p>
+        </div>
+    </div>
+
+    <div id="submit_help_tips" class="submit_elem">
+        <div class="container">
+            <div class="text-center">
+                <div class="submit_buttons btn-group" role="group">
+                    <a href="#submit_help_contact" class="btn-wl btn-wl-empty">How to contact WikiLeaks?</a>
+                    <a href="#submit_help_tor" class="btn-wl btn-wl-empty">What is Tor?</a>
+                    <a href="#submit_help_tips" class="btn-wl">Tips for Sources</a>
+                    <a href="#submit_help_after" class="btn-wl btn-wl-empty">After Submitting</a>
+                </div>
+            </div>
+
+            <h3>Tips</h3>
+            <p>Our submission system works hard to preserve your anonymity, but we recommend you also take some of your own precautions. Please review these basic guidelines. </p>
+            <div>
+                <h4>1. Contact us if you have specific problems</h4>
+                <p>If you have a very large submission, or a submission with a complex format, or are a high-risk source, please <a href="#submit_help_contact">contact us</a>. In our experience it is always possible to find a custom solution for even the most seemingly difficult situations.</p>
+            </div>
+            <div>
+                <h4>2. What computer to use</h4>
+                <p>If the computer you are uploading from could subsequently be audited in an investigation, consider using a computer that is not easily tied to you. Technical users can also use <a href="https://tails.boum.org">Tails</a> to help ensure you do not leave any records of your submission on the computer.</p>
+            </div>
+            <div>
+                <h4>3. Do not talk about your submission to others</h4>
+                <p>If you have any issues talk to WikiLeaks. We are the global experts in source protection &ndash; it is a complex field. Even those who mean well often do not have the experience or expertise to advise properly. This includes other media organisations.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="submit_help_after" class="submit_elem">
+        <div class="container">
+            <div class="text-center">
+                <div class="submit_buttons btn-group" role="group">
+                    <a href="#submit_help_contact" class="btn-wl btn-wl-empty">How to contact WikiLeaks?</a>
+                    <a href="#submit_help_tor" class="btn-wl btn-wl-empty">What is Tor?</a>
+                    <a href="#submit_help_tips" class="btn-wl btn-wl-empty">Tips for Sources</a>
+                    <a href="#submit_help_after" class="btn-wl">After Submitting</a>
+                </div>
+            </div>
+
+            <h3>After</h3>
+
+            <div>
+                <h4>1. Do not talk about your submission to others</h4>
+                <p>If you have any issues talk to WikiLeaks. We are the global experts in source protection &ndash; it is a complex field. Even those who mean well often do not have the experience or expertise to advise properly. This includes other media organisations.</p>
+            </div>
+
+            <div>
+                <h4>2. Act normal</h4>
+                <p>If you are a high-risk source, avoid saying anything or doing anything after submitting which might promote suspicion. In particular, you should try to stick to your normal routine and behaviour.</p>
+            </div>
+
+            <div>
+                <h4>3. Remove traces of your submission</h4>
+                <p>If you are a high-risk source and the computer you prepared your submission on, or uploaded it from, could subsequently be audited in an investigation, we recommend that you format and dispose of the computer hard drive and any other storage media you used.</p>
+                <p>In particular, hard drives retain data after formatting which may be visible to a digital forensics team and flash media (USB sticks, memory cards and SSD drives) retain data even after a secure erasure. If you used flash media to store sensitive data, it is important to destroy the media.</p>
+                <p>If you do this and are a high-risk source you should make sure there are no traces of the clean-up, since such traces themselves may draw suspicion.</p>
+                <div>
+                    <h4>4. If you face legal action</h4>
+                    <p>If a legal action is brought against you as a result of your submission, there are organisations that may help you. The Courage Foundation is an international organisation dedicated to the protection of journalistic sources. You can find more details at <a href="https://www.couragefound.org">https://www.couragefound.org</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="submit" class="submit_banner">
+        <div class="container">
+            <div class="page-header" style="margin-top: 0;">
+                <div style="float: left;">
+                    <h1 style="vertical-align: middle;">Submit documents to WikiLeaks</h1>
+                </div>
+
+                <div style="float: right;font-size: 30px;margin-top: 20px;vertical-align: middle;">
+                    <a href="#"><span style="vertical-align: middle;" class="glyphicon glyphicon-remove-circle"></span></a>
+                </div>
+
+                <div style="clear: both;"></div>
+            </div>
+            <p>WikiLeaks publishes documents of political or historical importance that are censored or otherwise suppressed. We specialise in strategic global publishing and large archives.</p>
+            <p>The following is the address of our secure site where you can anonymously upload your documents to WikiLeaks editors. You can only access this submissions system through Tor. (See our <a href="#submit_help_tor">Tor tab</a> for more information.) We also advise you to read our <a href="#submit_help_tips">tips for sources</a> before submitting.</p>
+
+            <div class="alert alert-info" style="text-align: center;padding: 20px;margin: 20px 0 20px 0;">
+                <div style="font-size: 30px;">
+                    <b>wlupld3ptjvsgwqw.onion</b>
+                </div>
+                <div>
+                    Copy this address into your Tor browser.         Advanced users, if they wish, can also add a further layer of encryption to their submission using <a href="#submit_wlkey">our public PGP key</a>.
+                </div>
+            </div>
+
+            <p>If you cannot use Tor, or your submission is very large, or you have specific requirements, WikiLeaks provides several alternative methods. <a href="#submit_help_contact">Contact us</a> to discuss how to proceed.</p>
+        </div>
+    </div>
+
+    <div id="submit_help_buttons" class="submit_elem">
+        <div class="container">
+            <div class="text-center">
+                <div class="submit_buttons btn-group" role="group">
+                    <a href="#submit_help_contact" class="btn-wl btn-wl-empty">How to contact WikiLeaks?</a>
+                    <a href="#submit_help_tor" class="btn-wl btn-wl-empty">What is Tor?</a>
+                    <a href="#submit_help_tips" class="btn-wl btn-wl-empty">Tips for Sources</a>
+                    <a href="#submit_help_after" class="btn-wl btn-wl-empty">After Submitting</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nv1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="nv1">
+                    <ul class="nav navbar-nav navbar-btn">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" title="Quick Menu">Quick Menu <span class="glyphicon glyphicon-chevron-down"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+        						<li role="presentation"><a role="menuitem" href="https://search.wikileaks.org/advanced">Advanced WikiLeaks Search</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://search.wikileaks.org/plusd">Public Library of US Diplomacy</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://wardiaries.wikileaks.org">Iraq and Afghan War Diaries</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://wikileaks.org/sony/">The Sony Archives</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://wikileaks.org/bnd-nsa/">Bundestag Inquiry into BND and NSA</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://search.wikileaks.org/gifiles">Global Intelligence Files</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://search.wikileaks.org/syria-files">Syria Files</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://www.wikileaks.org/wiki/">Archives 2006-2010</a></li>
+        						<li role="presentation" class="divider"></li>
+        						<li role="presentation"><a role="menuitem" href="https://collateralmurder.wikileaks.org/">Collateral Murder</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://wikileaks.org/gitmo/">Guantanamo Files</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://www.wikileaks.org/the-spyfiles.html">The Spy Files</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://911.wikileaks.org">9/11 Pager Intercepts</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://file.wikileaks.org/">File Archives</a></li>
+        						<li role="presentation" class="divider"></li>
+        						<li role="presentation"><a role="menuitem" href="https://worldtomorrow.wikileaks.org">WikiLeaks World Tomorrow</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://justice4assange.com/">Justice4Assange</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://www.couragefound.org/">Courage Foundation</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://freedom.press/wikileaks">Free Press Foundation</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://twitter.com/wikileaks">WikiLeaks Twitter</a></li>
+        						<li role="presentation"><a role="menuitem" href="https://wikileaks.org/donate">Donate</a></li>
+        					</ul>
+                        </li>
+                    </ul>
+
+                    <div class="nav navbar-nav navbar-right navbar-form">
+                        <a class="btn btn-success" href="https://shop.wikileaks.org/donate" style="font-weight: bold">Donate</a>
+                        <a class="btn btn-primary" href="#submit" style="padding-left: 30px; padding-right: 30px; font-weight: bold;">Submit</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right navbar-form navbar-btn">
+                        <li><a href="#submit_help_contact">Contact</a></li>
+
+                        <li><form class="navbar-form navbar-right"  role="search" action="https://search.wikileaks.org/" method="get">
+                            <div class="form-group form-search">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search Keywords" name="q">
+                                    <span class="input-group-btn">
+                                        <button type="submit" class="btn btn-primary">
+                                            <span class="glyphicon glyphicon-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </form></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br style="clear: both" />
+
+
+		<div class="container-fluid row-fluid">
+			<div class="col-xs-12 col-sm-5 col-md-3 col-lg-2 sidebar">
+				<a href="https://www.wikileaks.org/"><img src="https://wikileaks.org/static/gfx/wlogo-sm.png" /></a>
+
+				<div class="panel panel-primary">
+					<div class="panel-body ">
+<p><a href="/saudi-cables/search">The Saudi Cables</a></p>
+<p><b>Media Partners</b></p>
+<p><a target="_blank" href="https://www.al-akhbar.com/">Al Akhbar - Lebanon</a></p>
+<p><a target="_blank" href="http://www.madamasr.com/">Mada Masr - Egypt</a></p>
+<p><a target="_blank" href="https://www.thesaturdaypaper.com.au/">The Saturday Paper - Australia</a></p>
+<p><a target="_blank" href="http://www.sueddeutsche.de/">Süddeutsche Zeitung - Germany</a></p>
+<p><a target="_blank" href="http://en.rsf.org/">Reporters Without Borders</a></p>
+
+<!--
+ 						<form method="get" action="https://search.wikileaks.org/advanced.php">
+						    <div class="form-group">
+    							<input type="hidden" name="publication_type[]" value="31" />
+    							<input type="text" name="q" class="form-control" value="" />
+    							<div style="margin-top: 5px;"><input type="submit" name="submit" class="btn btn-sm btn-primary" value="Search Saudi Leaks" /></div>
+							</div>
+						</form>
+ -->
+					</div>
+				</div>
+
+                
+			</div>
+
+			<div class="col-xs-12 col-sm-7 col-md-9 col-lg-10 container-text">
+                
+
+<h1>The Saudi Cables</h1>
+
+<p><b>Over half a million cables and other documents from the Saudi Foreign Ministry.</b></p>
+<p>A total of 61304 published so far</p>
+
+<div style="text-align: center;">
+  <img src="/saudi-cables/static/WikiLeaks_Saudi_Cables_Cartoon.jpg">
+</div>
+<div style="text-align: center;">
+  <a class="searchbutton active" href="/saudi-cables/search">Search &nbsp;  بحث</a>
+    <a class="searchbutton sbinv" href="/saudi-cables/press">Press Release</a>
+    <a class="searchbutton sbinv" href="/saudi-cables/press-ar" dir="rtl">بيان صحفي</a>
+    <a class="searchbutton sbinv" href="/saudi-cables/buying-silence">Buying Silence</a>
+<!--     <a class="searchbutton sbinv" href="">Articles</a> -->
+</div>
+
+     <p>&nbsp;</p>
+
+<h3>Showing document <br />d00fba5482dbd43a099ab4c9aa09d658_بنود لجنة التنسيق.doc</h3><p>&nbsp;</p>  <div class="row">
+        <div class="col-md-6">
+<p>OCR-ed Text of this document:</p><div id='uniquer'><pre style="white-space: pre-wrap; font-family: Times, Serif; font-size: 1.2em; padding: 0;" dir="rtl">﻿
+الاجتماع الرابع والعشرين للجنة التنسيق (فرع الاعلام الخارجي)
+المنعقد بتاريخ 00/0/1432هـ الموافق 00/0/2011م
+جدول الاعمال
+1ـ البند الاول استعراض توصيات محضر الاجتماع الثالث والعشرين للجنة التنسيق.
+2ـ البند الثاني استعراض الاوامر السامية الصادرة على توصيات الاجتماع الثالث والعشرين .
+3ـ البند الثالث "خطة التواصل والتأثير".
+4ـ البند الرابع "مرئيات سمو النائب الثاني وزير الداخلية حول المحظورات الامنية للربع الخالى" .
+5ـ البند الخامس دراسة وابداء المرئيات حول التقرير الذى اعده مركز المعلومات والدراسات بوزارة الخارجية والمعنون بـ" الحركة الفكرية والاعلامية تجاه الاسلام والمملكة وتأثير التجمعات الفكرية. 
+6ـ البند السادس ابداء المرئيات حول الدراسة الصادرة عن مركز مكافحة الإرهاب (Combating Terrorism Center) التابع للأكاديمية العسكرية الأمريكية في (وست بوينت) تحت عنوان "محاصرون في المملكة – الشيعة وسياسة المواجهة .
+7ـ البند السابع تحديد ضوابط إدراج الاعلاميين المسيئين للمملكة على قائمة المنع من دخول المملكة .
+8ـ البند الثامن دراسة الكتاب الصادر عن صحيفة "وطن"بعنوان الحرب والقرار لمؤلفه فيث
+9ـ البند التاسع دراسـة تقرير رئاسـة الاستخبارات العامة حول مواجهة صحيفة "الحياة العربية" التى تصدر من تورنتو بكندا ويقوم عليها مجموعة من الشيعة المتطرفين من مؤسسة"الخوئى"
+10ـ البند العاشر مناقشة اسباب ضعف حضور الاعلام السعودي في التأثير على الساحة الاعلامية وتداعياته الخطيرة على تشكيل رأي سياسي سلبي تجاه سياسات المملكة الداخلية والاقليمية والدولية ، وبحث آليات تنشيطه .
+11ـ البند الحادي عشر: دراسة ما ورد من السفارة في روما حول تبني خطط مدعومة تتبنى دعم الترجمة وتحفيز الكتاب للتعريف بالمملكة .
+12ـ البند الثاني عشر دراسة تشجيع ودعم الصحفيين السعوديين وآخرين موالين للمملكة للاندماج في المؤسسات الاعلامية العالمية لتغطية احداث المنطقة والمملكة على وجه الخصوص بموضوعية ومصداقية وتفادي ترك هذه المهمة لأشخاص يطغى عليهم ميولهم الشخصي والمذهبي وتعمد الاساءة للمملكة بشكل أو بأخـر .
+13ـ البند الثالث عشر ابداء المرئيات حول حث الصحفيين المصريين المنصفين الذين لهم مواقف ايجابية مع المملكة في الرد على ما ينشر في الصحافة المصرية عن مصطلح الوهابية ووجهة نظر المملكة ، وذلك بعد استقرار الوضع السياسي في مصر .
+14ـ البند الرابع عشر تقرير وحدة أبحاث الايكونيميست عن المملكة العربية السعودية التوقعات السياسية والاقتصادية عن الفترة من عام 2012ـ 2016م
+15ـ البند الخامس عشر إنشاء مركز ثقافي في بريطانيا بناءً على اقتراح معالى وزير الثقافة والاعلام. 
+
+
+
+
+( البند الاول )
+استعراض توصيات محضر الاجتماع الثالث والعشرين للجنة التنسيق
+1ـ إستمرار خطة التواصل والتأثير في جهودها لحماية مكتسبات الحملة السابقة للعلاقات العامة مع العمل على عـدم انتكاسـة صورة المملكـة على السـاحة الامريكيـة ، والتعامل مع أي توجهـات سلبيـة واحتوائها .
+2ـ تأييد القائمة المتضمنة لمراكز الفكر الأمريكية ، والاقتراح بتشكيل لجنة من الجهات المختصة لوضع قائمة بأسماء الشخصيات السعودية للتواصل مع هذه المراكز . وتزويد السفارة في واشنطن بالقائمة النهائية لتنسيق مشاركتهم ومن ثم متابعتهم وتقييمهم .
+3ـ تفعيل التواصل بين بيوت الخبرة والجامعات السعودية مع مراكز الدراسات والفكر الدولية القائمة ، وتعزيز مشاركة الاكاديميين السعوديين فيها لابراز وجهة نظر المملكة من القضايا المطروحة ، وقيام كل من سفارات المملكة في بريطانيا وفرنسا بإعداد قائمة بمراكز الدراسات المرموقة للتعامل معها على نفس النسق .
+4ـ تشجيع التواصل المباشر بين الأكاديميين السعوديين ونظرائهم في الجامعات الغربية لتأليف كتب مشتركة عن المملكة ، أو مساعدتهم في التأليف المستقل بتقديم الدعم الأكاديمي والمعرفي لهم ، لمواجهة النقص الحاصل في الكتب العلمية والموضوعية عن المملكة في المكتبة العالمية وتزايد الاهتمام المعرفي الدولي عنها .
+5ـ تقديم الزمالة للباحثين والكتاب الأجانب من قبل مراكز الفكر فى المملكة ، وتنشيط حركة الزمالة المتبادلة بينهم .
+6ـ تعامل الجامعات مع مراكز ودور النشر العالمية ، والقدرة على التوزيع والنشر العالمي .
+7ـ قيام سفارات المملكة فى كل من واشنطن ولندن وباريس والمانيا باعداد قوائم باسماء الكتاب والمؤلفين المحايدين اللذين يمكن التعاون معهم فى هذا الخصوص .
+8ـ الاستعانة بالسفراء الامريكيين السابقين لدى المملكة للتصدي لما يثار من خلال قيامهم بمبادرة شخصية منهم لايضاح بعض المفاهيم الخاطئة عن المملكة .
+9ـ الكتابة لسمو النائب الثانى للاستئناس برأي سموه بشأن المحظورات الامنية التي تحول وزيارة الاعلاميين والرحالة لمنطقة الربع الخالي .
+10ـ التعامل مع الاساءات التى يتعرض لها الاسلام من قبل بعض الدول ومتابعة توصيات اللجنة حيال الاستراتيجية المحددة لمثل هذه الاساءات والمتمثلة في" إصدار بيانات الاستنكار لما يصدر من اساءات ، الاستمرار في التحرك الجماعي للسفارات العربية والاسلامية التي تصدر عنها الاساءة ، تقييم هذه الاساءات ومدى انتشارها لعدم المبالغة في التحرك بأكبر من حجم الحدث .
+11ـ حول الكتاب المُهدى لخادم الحرمين الشريفين ـ حفظه الله ـ من مكتبة ديفولغير باسبانيا "تحديات القرن الحادى والعشرين" تجاهل التعامل مع الكتاب الذى يعتبر من اختصاص الجهات الفكرية والاكاديمية .
+12ـ وبالنسبة لتقرير "مركز الحرية الدينية بمعهد هدسون فى واشنطن " الذى ينتقد المناهج السعودية فقد تم بعون الله تحقيق خطوات جيدة لتخفيف حدة الانتقادات ، اضافة لظهور بوادر فقدان مصداقية المعهد المشار اليه .
+13ـ بعد الاطلاع على محضر اللجنة الحكومية المشكلة لدراسة التحولات الامريكية لمشروع الاعلام الامريكى فى منطقة الشرق الاوسط والخليج ، أوصت اللجنة الاستمرار فى النهج المتخذ حيال ذلك والذى من شأنه دعم التماسك الوطنى والحفاظ على الأمن الفكري للمجتمع .
+14ـ بعد الاطلاع على تقرير برنامج الاديان وصنع السلام التابع لمعهد السلام الامريكى والذى يُشير للقيم الحقيقية للاسلام ، ورفض غالبية المسلمين لاعمال العنف والتطرف ، أوصت اللجنة بالتواصل مع المعهد للاستفادة من أنشطته وتوجهه الايجابي  .
+15ـ بعد الاطلاع على الاستطلاع الذى اعدته رئاسة الاستخبارات العامة عن الانعكاسات السياسية والامنية والاعلامية فى الشارع العربى وردود فعل الشعب السعودى على ما قامت به اسرائيل من حرب مدمرة ،رأت عدم اثارة الاوضاع المتعلقة بغزة فى الوقت الراهن لظهور مستجدات اخرى .
+
+
+
+
+
+
+(البند الثاني )
+استعراض الاوامر السامية الصادرة على توصيات الاجتماع الثالث والعشرين للجنة
+1ـ صـدر الامـر السـامى رقم 3823/م ب وتاريــخ 5/5/1431هـ بالموافقــة علـى توصيـة الاجتماع الثالـث والعشـرين للجنـة والمتضمنـة التواصل مع قائمة مراكـز الفكـر والدراسـات الامريكيـة عبر مجموعـة من الكفاءات السعودية ، وتشكيل لجنة لوضع قائمة باسماء الشخصيات السعودية .                    
+2ـ صـدر الامر السامى رقم 4087/م ب وتاريخ 14/5/1431هـ القاضى بالموافقـة الاستراتيجية التي وضعتها اللجنة للتعامل مع الكتب المسيئة للمملكة والاسلام  . 
+3ـ صـدر الامر السامى رقم 4068/م ب وتاريخ 14/5/1431هـ القاضى بالموافقـة على الفقــرة الثانية عشرة من التوصيـة والمتضمنة التحولات الاستراتيجية للمشروع الاعلامى الامريكى فى منطقة الشرق الاوسط والخليج والعمل على مواجهة هذا الاختراق من خلال الخطوات الايجابية لحماية المجتمع من هذه التيارات .                                                                                  
+4ـ صـدر الامر السامى رقم 3785/م ب وتاريخ 5/5/1431هـ القاضى بالموافقـة على توصية اللجنة بقيام خطة التواصل والتأثير بالتعاون مع معهد السلام الامريكى لبحث أفضل السبل للاستفادة من أنشطته وتوجهه الايجابي .  
+5ـ صـدر الامر السامى رقم 48021/ وتاريخ 22/10/1432هـ بالموافقة على ما أوصت به اللجنة العامة لمجلس الوزراء بشأن الفقرة الثامنة من محضر الاجتماع حول أسلوب التعامل مع الاعلام الخارجي عند تطبيق الاجراءات النظامية بحق المواطنيين المدنيين والعسكريين الذين يقومون بنشر أو إصدار البيانات والخطابات التى تناهض سياسة الدولة .
+6ـ  صـدر الامر السامى رقم 48704/ وتاريخ 27/10/1432هـ  القاضي بالموافقة على ما جاء في الفقرة العاشرة من المحضر حول رؤية الكتاب سلبية تجاه التاريخ الاسلامي والحضارة الاسلامية دون التعرض مباشرة للمملكة، وتجاهل التعامل مع الكتاب . 
+7ـ صدر الامر السامي رقم 11138/ب وتاريخ 4/3/1431هـ بشأن تصريحات السفراء الامريكيين السابقين لدى المملكة وما أوضحه سمو رئيس الاستخبارات العامة حول هذا الموضوع ، وتأييد سمو نائب رئيس مجلس الوزراء ووزير الداخليه لمرئيات سموه ، وما أشارت اليه لجنة التنسيق فرع الاعلام الخارجي في الفقرة السادسة من اجتماع اللجنة الثالث والعشرين بعد دراستها لذلك . 
+
+
+
+
+
+
+
+
+( البند الثالث )
+استعراض تقارير سفارة خادم الحرمين الشريفين فى واشنطن حول خطة التواصل والتأثير ونشاط السفارة على صعيد العلاقات الحكومية والاستراتيجيات المقترح تنفيذها خلال عام 2011م.
+ـ تلقت اللجنة ثلاث تقارير فصلية للعام 2010م حول نشاط سفارة خادم الحرمين الشريفين فى واشنطن بعد صدور الامر السامى القاضى بانهاء حملة العلاقات العامة للمملكة فى الولايات المتحدة وتحويلها الى خطة تواصل وتأثير "لوبى" مع الادارة الامريكية الجديدة وذلك للتعامل مع المستجدات على الساحة الامريكية وظهور زعامات جديدة فى الكونجرس وصيانة مكتسبات حملة العلاقات العامة .
+وتظهر التقارير تركيز وسائل الاعلام الامريكية خلال العام 2010م على قوة الاقتصاد السعودى ، واسعار النفط  ، بالاضافة لمنتدى فرص الاعمال السعودى الامريكى فى مدينة شيكاغو ، وتم تسليط الضوء على قوة الروابط الاقتصادية السعودية الامريكية ، كما نالت الفتوى التى تندد بالارهاب واصدرها علماء سعوديين قدرا كبيرا من التغطية فى وسائل الاعلام الرئيسية وتحدثت عن أهمية دور العلماء من حرمان الارهابين الوصول الى قواعد التجنيد ، وقامت السفارة باصدار بيان صحفى عن الفتوى وتوزيعها على وسائل الاعلام ، كما حظيت زيارة خادم الحرمين الشريفين ولقاءه بفخامة الرئيس اوباما بالاضافة لجهود المملكة لمكافحة الارهاب وبرنامج المناصحة وإعادة التأهيل على قدر كبير من التغطية فى الاعلام الامريكى ، ، كما كان لزيارة خادم الحرمين الشريفين الى لبنان يرافقه الرئيس السورى قدرا كبيرا من التغطية الاعلامية وجرى النظر لخادم 
+الحرمين الشريفين الملك عبدالله باعتباره زعيم يساعد فى تخفيف حدة التوتر بين لبنان وسوريا ، من ناحية اخرى فقد صدرت تقارير ايجابية عن المملكة كحليف هام ورئيسى للولايات المتحدة فى المنطقة لمواجهة الطموحات الايرانية بالاضافة لأي خطة تستهدف تحقيق الاستقرار والامن  في اليمن وافغانستان ، كما اهتمـت كافــة وسائل الاعلام الامريكيــــة بالفيضانات التى اجتاحت مساحات 
+شاسعة من باكستان وسلطت الضوء على المساعدات التى قدمتها المملكة للضحايا وأشارت الى ان المملكة كانت واحدة من دول قليلة تبرعت لدعم جهود الامم المتحدة الاغاثية في باكستان، وكانت أهم قضية تم بحثها خلال الربع الثالث كانت الاعلان عن صفقة الاسلحة الامريكية المزمع بيعها للمملكة بقيمة 60 مليار دولار وقد كان لهذه الصفقة قدر واسع من التغطية الاعلامية فقد قوبلت بردود فعل قوية من جانب الاعلام الامريكى واللوبى المؤيد لاسرائيل وخبراء شئون الشرق الاوسط  وتأكيد الأثر الايجابي للصفقة على الاقتصاد الامريكي وسوق الوظائف رغم وجود هجوم على الصفقة حيث يتساءل البعض عن تسليح دولة يوجد على اراضيها اعداد من الارهابيين ، وعلى صعيد العلاقات الحكومية لم يشهد الربع الثانى والثالث من العام المنصرم اى تقدم يذكر بصدد التشريعات السلبية ذات الصلة بالمملكة وكان انشغال الكونجرس خلال تلك الفترة بالتسرب النفطى فى خليج المكسيك وبقضايا اصلاح النظم والضوابط المالية وقضايا الاقتصاد الداخلي ، ولم يتم تداول او النظر فى اى تشريعات اخرى ، وقد واصلت السفارة تواصلها مع اعضاء رئيسين ومساعدين تشريعين ومع اللجان الهامة فى الكونجرس .                                                    
+     ــ تلقت اللجنة مرئيات اصحاب السمو والمعالى الاعضاء بالاتفاق على التحسن الذى طرأ على الشأن السعودى فى وسائل الاعلام الامريكية والتى بدأت تتناول قضايا المملكة 
+بشكل ايجابى وتقلُص الملاحظات التى تثار ضد المملكة ، ويرون ان يتم مواصلة هذه الجهود من خلال الاتصالات المباشرة بوسائل الاعلام الامريكية المهمة وتكثيف الدعوات والزيارات والاتصال بصناع القرار فى الحكومة والكونجرس بما يعزز من موقف المملكة وتسليط الضوء على جهودها فى دعم السلام والاستقرار الدوليين ومحاربة الارهاب .
+ ويرى سمو سفير خادم الحرمين الشريفين فى لندن انه يتوجب اعطاء مسألة تعديل قانون انطونى واينر المتعلق بحرمان المملكة من المساعدات المالية الخارجية أهمية واعتماد ما يلزم بخصوصها حتى لا تتطور الامور وتضر بمصالح المملكة ، كما يرى معالى وزير التجارة والصناعة انه من الضرورى استمالة بعض اعضاء الكونجرس الامريكى للحيلولة دون تمرير قانون" تحقيق العدالة 
+فى مواجهة رعاية الارهاب " الذى طرحه السناتور ارلى سبيكتر ، نظرا لانه فى حال الموافقة عليه سيعيد كل الدعاوى القضائية المرفوعة ضد الحكومة السعودية والاسرة المالكة . 
+وفيما يلى موجز لأهم انشطة السفارة فى واشنطن خلال تلك الفترة :
+ــ " اجتماعات في الكونجر س مع 28 عضوا و202 مساعد ،
+ــ  عقد(5) اجتماعات لجان تنوير فى الكونجرس ، 
+ــ عقد(7) مناسبات تواصل مع فئات اجتماعية ،
+ــ عقد(7) اجتماعات تنوير اعلامي ، 
+ــ نشر (29) إصدار صحفي ، و(1067) مادة في موقع تويتر .                               
+
+
+
+
+
+
+   
+(البند الرابع)
+استعراض الامر السامى رقم 10214/ب وتاريخ 29/2/1431هـ بشأن دراسة مرئيات صاحب السـمو الملكى النائب الثانى لرئيس مجلس الوزراء وزيـر الداخليـة حول المحظورات الامنيـة التى تحول دون زيارة الاعلاميين والرحالة والباحثين لمنطقة الربع الخالـى ولمناطق المملكـة المختلفـة ومواقعها التاريخية والجغرافية
+ــ تضمنت الفقـرة "السابعة" من محضر لجنة التنسيق  "فـرع الاعلام الخارجى" فى اجتماعها الثالـث والعشـرين الكتابة لصاحب السمو الملكى النائب الثانى لرئيس مجلس الوزراء وزيـر الداخليـة للاستئناس براي سموه حيال المحظورات الامنية التى تحول بين زيارة الاعلاميين والرحالة والباحثين لمنطقة الربع الخالـى ، لدراسة الموضوع بشكل متكامل من الجوانب الامنية والاعلامية .
+ــ وقد تلقت اللجنة مرئيات سموه " تقرير" يتضمن ان وزارة الداخلية وبعد احداث الـ11 من سبتمبر لاحظت ازدياد طلبات من مؤسسات اعلامية غربية وامريكية ، سواء عن طريق ممثليات المملكة فى الخارج أو عن طريق وزارة الثقافة والاعلام أو الهيئات العامة للسياحة أو عن طريق مؤسسات اعلامية وطنية متعاونة مع مؤسسات اعلامية غربية ، لزيارة المملكة والتركيز على الربع الخالى والمشاعر المقدسة وطرق الحج والمناطق الاثرية التى كان لليهود تواجد فيها قبل الاسلام مما ولد الكثير من الشكوك فى سلامة وأهداف هذه المؤسسات ، وأن معظم الطلبات لاتخلو من البحث عن العناصر التاليـة ( التاريخ، الديانـة، الطبيعة، البترول، الحـدود، الآثار الاسلامية، مناطق حيويـة امنيا واقتصاديا ، ولهذا كان التحفظ فى السماح لتلك المؤسسات باختراق مناطق المملكة حفاظا على الامن الوطنى ( وقد تضمن التقرير نموذج من تلك الطلبا والجهات ) ، وقد لاحظت وزارة الداخليـة ان قوائم الاجهزة التى يُطلب جلبها معهم تحتوى على اجهزة ذات مواصفات 
+خاصة مثل رصد الخرائط التناظرية ، القفز فى الجو حتى علو"300م" ، وكمرات تنقل الحدث مباشرة الى مُستقبِل خارجى بعد تحديد احداثياته آلياً ، أجهزة رصد الاشعاع فى التربة والتصوير الغير مرئي وتوجيه الاقمار من الارض لرصد نقطة معينة ، عمل خرائط اليكترونية محددة ، وان هذه التجهيزات الفنية مخصصة لجمع المعلومات واضاف التقرير ان منطقة الربع الخالى لايوجد فيها ما يغرى وسائل الاعلام الغربية ولا يوجد فيها منشآت سياحية تجلب السياح ولم يعلن عن وجود آثار أو تكوينات جغرافية يمكن مشاهدتها ، مما يرجح أن وراء هذه المطالب كثير من الاهداف الغير معلنة وهى استخباراتية تتخذ من وسائل الاعلام واجهة لها ، واضاف التقرير ان احد القنوات الامريكية بثت نقاشا ملخصه ان منطقة الربع الخالى لم تكتشف بما فيه الكفاية وان هذا يعزز الشك ان أهداف يمكن الدلالة عليها وان لم يعلن عنها مثل : معرفة نوعية السكان وطريقة معيشتهم وعوامل التأثير عليهم ، الطقس وماهى التجهيزات التى يمكن ان تناسب العمل للقوات الخاصة ، نوعية الارض ومعرفة الاليات التى يمكن ان تستخدم فيها ، المعادن والثروة المعدنية ، رصد ما يمكن رصده من لجوء أرهابين أو مطلوبين فى هذه المنطقة ويشير التقرير الى ان منطقة الربع الخالى يوجد بها منشآت عسكرية وأمنيـة وأقتصاديـة بالاضافـة الى انها مناطق حـدود قـد يكون فيها ثغرات امنيـة يخشى استطلاعها ، ولهذا فان معظم الطلبات يشكل لها لجان من جهات امنية واعلامية وتوصى هذه اللجان بعدم التوسع فى ذلك .
+وقد تلقت اللجنة مرئيات صاحب السمو الملكى سفير خادم الحرمين الشريفين فى لندن ويرى سموه انه قد يصعب فرض حظر شامل لزيارة بعض الاماكن التى يكون لها ضرورة اعلامية وثقافية ، وحيث ان هناك محظورات امنية فان سموه يستحسن احالتها الى لجنة امنية لدراسة الطلب ، انه لايمكن فرض حظر شامل لما له من أثر سلبي على صورة المملكة وان يتم تحقيق ذلك من خلال سياسة مدروسة من حين لآخر وفق جدول معين ومراقبة امنية تضمن للمؤسسة التغطية الاعلامية كما تلقت مرئيات معالى وزير التجارة والصناعة الذى يؤيد كافة ما أشار اليه  صاحب السمو الملكى 
+النائب الثانى لرئيس مجلس الوزراء وزيـر الداخليـة  من نقاط هامة ، ويشارك سموه الراى فى عدم التوسع والسماح لتلك المؤسسات الاعلامية بزيارة الربع الخالى والمناطق الاخرى التى لها حساسية .  
+وتلقت اللجنة مرئيات معالى سفير خادم الحرمين الشريفين فى واشنطن والذى يرى ان زيارة الربع الخالى من قبل جهات امريكية تأتى بصورة محدودة وتتعلق بزيارة حقل شيبة وبالتنسيق مع ارامكو. 
+
+
+
+
+
+(البند الخامس)
+استعراض الامر السامى رقم 7544/ب وتاريخ 13/2/1431هـ بشأن دراسة وابداء المرئيات حول التقرير الذى اعده مركز المعلومات والدراسات بوزارة الخارجية والمعنون بـ" الحركة الفكرية والاعلامية تجاه الاسلام والمملكة العربية السعودية وتأثير التجمعات الفكرية عليها
+ــ صدر الامر السامى رقم 7544/ب وتاريخ 13/2/1431هـ لدراسة وابداء المرئيات حول التقرير الذى اعده مركز المعلومات والدراسات بوزارة الخارجية والمعنون بـ" الحركة الفكرية والاعلامية تجاه الاسلام والمملكة العربية السعودية وتأثير التجمعات الفكرية عليها" ويمثل التقرير موجز وخلاصة تحليلية لما تم رصده من سلبيات كُتبت عن المملكة وقيادتها منذ بداية أزمة الـ11 من سبتمبر وحتى تاريخ اعداد التقرير . 
+ــ وقد تلقت اللجنة مرئيات صاحب السمو الملكى سفير خادم الحرمين الشريفين فى لندن ويرى سموه ان التقرير تضمن معلومات مهمة عن فئات من الكُتاب معروفة بكتاباتها عن المملكة والاسلام وتسعى لخلق حالة من العداء للاسلام والمملكة ، وصنف التقرير هولاء الكُتاب الى اربع فئات وان الفوارق بينهم ضيئلة ومتطابقة وان سموه يفضل ان يتم تصنيفهم على أساس درجات من العداء والقناعة والعقائدية ويفند تلك الفئات ونماذج للكُتاب الذين يمثلون كل فئة ، ويرى ان هؤلاء الذين يكتبون عن المملكة كثيرون والذين ينتقدون الاسلام أكثر لذلك فانه من الضرورى ايجاد مؤسسة أو مركز ثقافى يضم شخصيات فكرية سعودية وغير سعودية لديها القدرة على التعامل مع المزايدين على مواقف المملكة من منطلق اكاديمى وفكرى ونشر دراسات تخدم الاسلام والمملكة .   ـ كما تلقـت اللجنة مرئيات معالى وزير التجارة والصناعة والذى يؤيد ما جاء فى التوصية الواردة فى التقرير على قيام رابطة العالم الاسلامي بدور هام لاحتواء بعض الكتاب ذوى الاصول الاسلامية، 
+والاستفادة من المنظمات والمراكز الاسلامية الموجودة فى امريكا واوروبا التى تتعاطف مع المملكة للتأثير على هذه الفئة بما يجعلهم محايدين فى طروحاتهم وافكارهم .  
+ــ وتلقت اللجنة مرئيات معالى وزير الثقافة والاعلام والذى يرى ان التقرير يوجز بعضا من موجات الحملات الاعلامية التى تتكرر منذ زمن ضد الاسلام والمملكة ، وتأخذ عدة اتجاهات فى نهجها واسلوبها لتمرير رؤاها وافكارها فى وسائل الاعلام اليمينية المعادية للاسلام والمسلمين مما سهل انتشارها الى حدا مزعج ، ويتفق معاليه مع ماورد فى التقرير من توصيات من اهمها احتواء الكُتاب المسلمين ووضع خطة عمل بالتنسيق مع رابطة العالم الاسلامى .
+وتلقت اللجنة مرئيات معالى سفير خادم الحرمين الشريفين فى واشنطن الذى يشيد بالدراسة مشيرا الى ان هناك متابعة من قبل السفارة فى واشنطن لما يدور فى مراكز الفكر او ما يُكتب عن المملكة وهناك تواصل بينهما ، ويوضح ان المراكز المناوئة للمملكة من ناحية ايديولوجية أو دينية يصعب التعامل معها والكثير منهم يعتبر من المتطرفين وليس لهم مصداقية وعادة ما يكتبون فى مجلات يكون توزيعها محدودا ، ويرى معالى السفير ان يستمر متابعة هذه المراكز عن بعد دون الرد عليها حيث ان ذلك يلفت النظر اليها ويكسبها شهرة لاتستحقها ، والتركيز على مراكز الفكر والشخصيات المعتدلة.
+
+
+
+(البند السادس)
+استعراض الأمر السامي رقم 2842/م ب وتاريخ 29/3/1431هـ، بشأن الدراسة الصادرة عن مركز مكافحة الإرهاب (Combating Terrorism Center) التابع للأكاديمية العسكرية الأمريكية في (وست بوينت) تحت عنوان "محاصرون في المملكة – الشيعة وسياسة المواجهة في المملكة العربية السعودية" بقلم توبي جونز
+صدر الأمر السامي رقم 2842/م ب وتاريخ 29/3/1431هـ بدراسة التقرير الذي أعده مركز مكافحة الإرهاب التابع للأكاديمية العسكرية الأمريكية في (وست بوينت) تحت عنوان (محاصرون في المملكة – الشيعة وسياسة المواجهة في المملكة العربية السعودية) بقلم  توبي جونز، المركز المذكور يُعد ويُصدر دراسات وأبحاث وتقارير تحليلية مستقلة تعبر عن آراء ومواقف كتابها وليس بالضرورة مواقف الأكاديمية أو وزارة الدفاع أوالحكومة الأمريكية ، أما بالنسبة لمعد الدراسة الدكتور / توبي جونز فهو أكاديمي متخصص في قضايا المنطقة.
+أهم ما جاء في التقرير ما يلي:
+بلوغ الهياج الطائفي حداً من النشاط المفرط في المملكة، حيث يقابل فيه الاختلاف الديني بعداء، فالشيعة البالغ عددهم مليوني شخص يواجهون مستويات من العداء أشد مما هو مألوف ، قيام(رجال الهيئة) وقوى الأمن بمهاجمة مئات من الشيعة الذين كانوا يزورون المواقع المقدسة في المدينة المنورة ، أعقب ذلك تصاعد حدة التوتر بين الشيعة والحكومة ورجال الدين السنة البارزين.
+مؤخراً قام الشيخ عادل الكلباني بانتقاد المذهب الشيعي باعتباره شكل من اشكال الردة، ويعتبر تحريض الكلباني مثيراً للقلق لكونه فيما يبدو يعكس رغبة الحكومة في التغاضي عن تصعيد الحقد الطائفي ، من جانب الشيعة أشعل بعض قادتهم نيران الخلاف.وطالب رجل الدين الشيعي نمر النمر الشيعة بالإنفصال عن المملكة. 
+دور الحكومة السعودية في تخويل المؤسسة الدينية سلطة ممارسة أسوأ، ونتيجة لذلك تبنى الشيعة نهج متطرف، فشبح التشدد يحوم سماء المملكة وذلك في ظل إحتمال تحرك المجموعات الشيعية المتطرفة نحو المواجهة ، ومن بين تلك التحركات ظهور حزب الله (السعودي) في الحجاز من جديد (والذي يعتقد بأنه مسؤول عن تفجير مجمع الخبر الذي أسفر عن مقتل 19 جندياً أمريكياً).
+يواصل الشيعة وقادتهم السعي لحماية أنفسهم من التطرف الديني والظلم الاجتماعي والسياسي، وقد شجعوا على التسوية بدلاً من المواجهة وسعوا في سبيلها. واليوم يخضع هذا المسعى نحو الإندماج والتسامح إلى ضغوط هائلة. وفي ظل الهجوم الذي تشنه الحكومة والسلطات الدينية في المملكة على الشيعة فإن الظروف أصبحت مهيأة لتمرد شيعي جديد.
+سوف يظل احتمال لجوء الشيعة إلى التطرف والعنف قائماً في المملكة بسبب السخرية التي يواجهونها وبسبب قلقهم إزاء مصيرهم. ودفع الحكومة السعودية الوضع إلى ماهو أسوأ ، باعتمادها مزيجاً من الإهمال والمواجهة تجاه الشيعة.
+تباطؤ الحكومة السعودية بملاحقة رجال الدين السنة الذين يقومون بصورة منتظمة بشن هجوم فوري على الشيعة في المملكة والعراق وغيره من دول المنطقة.
+لم تفشل الحكومة فحسب في السيطرة على النقد الموجه على أساس طائفي ، بل ساهمت في إذكاء نار الطائفية.
+قلق القادة السعوديين من تصاعد نجم إيران (وما لها من نفوذ على سوريا وحزب الله في لبنان) من الهيمنة على المنطقة.
+عدم إقدام الملك عبدالله على لعب ورقة الطائفية بشكل مباشر، إلا أنه من الواضح ان القادة السعوديين يسمحون لأتباعهم، وربما يشجعونهم على القيام بذلك.
+لدى شيعة المملكة الإحساس بأنهم على خط النار مباشرة ، وأحداث المدينة عام 2009م، تشعرهم بأنهم يعيشون في بيئة تتحول إلى بيئة مسمومة. ويعتقدون أن شن هجمات قاتلة على مجتمعهم 
+
+مسألة وقت ، لذا فالقيادات الشيعية سوف تواصل الدعوة للتعايش والتسامح والتشجيع على التعددية السياسية والإصلاح بإعتبار ذلك وسيلة أساسية لحماية مصالحهم.
+محاولة الصفار وأتباعه السير في ركب الملك عبدالله على أمل توجيه المملكة على طريق أكثر تحرراً وتسامحاً. حققت هذه الإستراتيجية القليل من النتائج .
+الا انه من غير المستبعد وفي ظل استمرارالتوجه الطائفي والإضطهاد الذي تمارسه                  الدولة، والتغاضي عن مظالم الشيعة ،أن يتخطى النمر أوحزب الله السعودي أو بعض   الشبكات السياسية الأخرى مرحلة التعبير عن الغضب من خلال الخطاب السياسي وتبني المواجهة ، وان حدوث صدام عنيف يبدو أكثر إحتمالاً في ظل توجه الحكومة الحالي في إزدراء الشيعة وتصرف الشرطة إزائهم بوحشية ، سوف تحدث نتائج مأساوية إذا لجأ الشيعة للتمرد. تاريخياً أثبت الشيعة أنهم لا يسارعون إلى تبني العنف حتى في البيئة الحالية التي تشهد توتراً،وان قادة الشيعة يسعون للتسوية وإيجاد سبل لمنع تصعيد حدة التوتر والحيلولة دون حدوث نتائج خطرة 
+ويدرك قادة الطائفة ان ممارستهم للإرهاب سوف يقابل بقوة لا قبل لهم بها من قِبل الحكومة السعودية التي من المؤكد أن تشن حملة ملاحقة كرد فعل على ذلك التصعيد، وانه يمكن تجنب العنف، وان هذا يتوقف على مدى الدعم الذي يمكن أن يلقاه الشيعة من الحكومة، التي كثيراً ما سعت للسيطرة الطائفية والمشاعر المعادية للشيعة، وذلك بالإعتماد على مثل تلك المشاعر حيثما رأت ذلك ملائماً بدلاً عن العمل بجدية على التخلص منها.
+مواصلة الحكومة السعودية التعامل مع الشيعة كما لو كانوا يمثلون مشكلة أمنية أكثر من كونهم أقلية تسعى لإزالة التفرقة الاجتماعية والدينية.
+صعود نجم إيران وشيعة العراق حجب قلق الحكومة السعودية على الرؤية الواضحة فيما يتعلق بالسياسة الداخلية، الأمر الذي يزيد من إحتمال حدوث مصادمات الخطيرة .
+ــ  من ناحية اخرى فقد تضمن الامر السامى الكريم مرئيات صاحب السمو الملكي النائب الثاني لرئيس مجلس الوزراء وزير الداخلية حول الدراسة والمتضمنة ما يلي:
+الإهتمام بوسائل الإعلام والتوضيح من خلالها أن الشيعة يتمتعون بحقوقهم كسائر المواطنين، ولا يوجد أي تمييز عنصري أو طائفي يمارس عليهم ، وتوضيح الصورة الواقعية لوضع الشيعة في المملكة وما يتميزون به من إحترام وتقدير ومساواتهم بأبناء السنة، وأن كاتب هذه الدراسة لم يكن موضوعياً في دراسته بل كان متحيزاً إلى الشيعة.
+تفعيل الإعلام المضاد في ما يكتب عبر مواقع الإنترنت والرد المفحم على كل متطاول على المملكة وملاحقته قانونياً.
+الإستفادة مما ورد في الدراسة بجوانبها الإيجابية مثل التأكيد على نبذ التطرف والعنف وهذا هو المنهج الذي تتبناه المملكة ولعل مؤتمر حوار الأديان خير شاهد على ذلك.
+أن يتم إفهام الأئمة وخطباء المساجد بعدم الخوض في أمور تؤجج نار الفتنة الطائفية في المملكة وخصوصاً تلك التي تتعلق بالشيعة وتكفيرهم.
+ــ من ناحيته يرى صاحب السمو الملكي رئيس الاستخبارات العامة متابعة إصدارات هذا المركز والمراكز المشابهة لأهميتها في توجيه رؤى النُخب في المجتمعات الغربية والعربية، وأن تكون هناك دراسات مضادة لاسيما وأن هناك تركيزاً على أوضاع الشيعة في العالم العربي ودول الخليج ومنها المملكة.
+وقد تلقت اللجنة مرئيات صاحب السمو الملكي سفير خادم الحرمين الشريفين في لندن المتضمنة أن الدراسة لا تنطوي على جديد وان ما قاله المؤلف سبق وأن أورده في دراسات أخرى منها (البحث عن عقد اجتماعي للمملكة العربية السعودية) و(ربيع المملكة الصامت) والكاتب معروف عنه انه من دارسي التاريخ المعاصر، وهو من النوع المتخصص في دراسات الشرق الأوسط الذي يرى الأمور من رؤية غربية علمانية، وبالتالي ينظر للمنطقة من خلفية لا تنسجم تماماً مع متطلبات وتاريخ المنطقة ، وان هناك تعاطف قائم دوماً مع الأقليات دون التمحيص في الواقع الاجتماعي والسياسي والخلفية التاريخية والتهديدات الخارجية ورآي الأكثرية وأيديولوجيتها.
+
+وأضاف سموه بأن استنتاجات الكاتب بعدم وجود علاقة بين الناشطين الشيعة في المملكة وإيران تتعارض مع ما قاله في نفس النص بأن المعتدلين من الشيعة في المملكة مثل 
+حسن الصفار يرتبطون بمرجعية الشيرازي الذي يرى أن رجال الدين يجب أن يمسكوا بزمام السلطة ويختلف فقط مع الخميني في ولاية الفقيه وما تعطيه من سلطة مطلقة. كذلك قوله أن المتشددين الشيعة مثل النمر يؤمنون بمرجعية الخميني ، بعبارة أخرى كلا الطائفتين لها مرجعية دينية وتؤمن بأن الفكر الديني يجب أن يحكم. ثمة الكثير من التناقض في طرح المؤلف وبالتالي يسهل نقده ودحض أقواله. لكن بما أن هذا النوع من الكتاب معروف ولا يمكن تغيير طرحه فإنه يستحسن في ضوء ذلك أن تعمد السفارات في الخارج الإسترشاد بتوصية وزارة الداخلية ومنها ضرورة التوضيح لوسائل الإعلام بأن الشيعة مواطنون مثلهم مثل غيرهم، والرد على ما يثار من إتهامات ولكن حسب الحاجة والمصلحة، إبراز دور المملكة في قضايا التطرف والدعوة إلى الحوار، والحرص أيضاً على إفهام خطباء المساجد بالإقلاع عن البيانات التي تضر بالدين والوطن والرجوع إلى العقل والمصلحة.
+وتلقت اللجنة مرئيات معالي وزير التجارة والصناعة الذي يرى ان الدراسة وعلى الرغم مما فيها من تحيز واضح للشيعة إلا أنها مهمة وتستحق المزيد من التحليل والمتابعة كونها تأتي في وقت حساس للغاية نتيجة التدخلات الإيرانية المباشرة وغير المباشرة في شئون دول المنطقة وعلى الأخص ما حدث في كل من اليمن والعراق، إضافة إلى أن الدراسة تلقي الضوء على محاولات بعض القوى المؤثرة في العالم الغربي إثارة الفتنة الطائفية بين السنة والشيعة في المملكة من خلال استخدامهم للإعلام ووسائل الاتصال الحديثة، مما يستدعي التصدي لمثل هذه المحاولات والحذر من أبعادها المستقبلية على الأمن والاستقرار في المملكة، وهذا يتطلب بذل المزيد من الجهود لإيضاح الحقائق وتنوير المجتمعات الغربية بأن الشيعة في المملكة ينعمون بكافة حقوقهم السياسية والمدنية ، وأن الكثير منهم تبوأ مناصب عليا في الدولة وفي مجلس الشورى، وأن ما يشاع عن 
+
+تهميش الحكومة السعودية لهم سياسياً ومحاصرتهم عقائدياً واقتصاديا واجتماعيا محض افتراءات 
+الورقة الطائفية من أشد الأوراق خطورة بيد أعداء المملكة وينبغي الوقوف بحزم وجدية ضد استخدامهم لتلك الورقة، وتفويت الفرصة عليهم لإشعال نار الطائفية في المملكة، من خلال نشر سياسة الاندماج والتسامح في الداخل، ويفضل أن يتم ذلك من خلال حملات إعلامية مكثفة تستهدف الرأي العام الغربي ، وتشمل عقد ندوات ولقاءات مع المهتمين بهذا الشأن ، وإصدار نشرات تعريفية وكتب وبحوث تسلط الضوء على ما يتمتع به الشيعة في المملكة من مساواة في المزايا والحقوق، مع الأخذ في الاعتبار بالتأكيد على الأئمة وخطباء المساجد في المملكة ورجال الدين بتفادي كل ما من شأنه إحداث توتر مع الطائفة الشيعية في المملكة والابتعاد عن إثارة التحريض والنعرات الطائفية ضدهم ، وتشجيع الشيعة على الاندماج في المجتمع السعودي.
+كما تلقت اللجنة مرئيات معالي وزير الثقافة والإعلام المتضمنة الملاحظات التالية:-
+سيتم توجيه كافة وسائل الاعلام المحلية لإبراز الدور الريادي الإسلامي للمملكة وتنوير الرأي العام لازالة اللبس ازاء ما يتم طرحه في الساحة الإعلامية من مواضيع تتعلق بهذا الشِأن ، إذ سيساهم مساهمة جيدة في إيضاح دور المملكة الحقيقي لكافة مواطنيها، مع التأكيد على أن الجميع يتمتعون بكافة حقوقهم.
+أهمية أن يكون هناك دعم لكافة المشاريع الإعلامية التي تهدف إلى الرد على أي دعاوي باطلة ضد المملكة وتفنيد ما يثار ضدها من مزاعم. كما أن تقديم الدعم المادي لمحطات الإذاعة والتلفزيون الإسلامية والعمل على إيجاد مساحة للبرامج الدعوية لعلماء المملكة والعلماء الآخرين المعتدلين لتوضيح الفكر الإسلامي الصحيح هو من أولويات العمل على تلافي ما في مثل هذه الدراسات من سلبيات لا تمت للحقيقة بأي صلة.
+الاتفاق مع ما جاء في تقرير وزارة الداخلية، حول المركز والأكاديمية فيما يتعلق بإفهام الأئمة وخطباء المساجد بعدم الخوض فيما يؤجج الفتنة الطائفية في المملكة 
+
+ كما تلقت اللجنة مرئيات  معالي سفير خادم الحرمين الشريفين لدى واشنطن المتضمنة ان التأثير في وجهات نظر الكتاب والباحثين والدراسات التي يعدونها يمكن أن يتم من خلال تنويرهم حول الحقائق في المملكة والتواصل معهم وإتاحة الفرصة لهم لإستقاء المعلومات من مصادرها الأصلية والموثوقة. وتقوم السفارة في هذا الجانب بترتيب برنامج زيارات لأعضاء وباحثين من مراكز الفكر الهامة وكذلك أساتذة وطلبة الجامعات.
+بالنسبة لاقتراح الاهتمام بوسائل الإعلام وتوضيح الصورة عن وضع الشيعة في المملكة وما يحظون به من إحترام وتقدير ومساواتهم بأبناء السنة، مناسب ومن المفيد النظر في كيفية تطبيقه.
+مناسبة التوصية المتعلقة بإفهام الأئمة والخطباء بعدم الخوض في أمور تثير الفتنة الطائفية في المملكة خاصة التي تتعلق بالشيعة وتكفيرهم.
+اما بالنسبة للتوصية الخاصة بتفعيل الإعلام المضاد فيما يكتب عبر مواقع الإنترنت والرد على كل متطاول على المملكة وملاحقته قانونياً، فانها تحتاج إلى دراسة معمقة، حيث أن مواقع الإنترنت عديدة، وملاحقة كل متطاول على المملكة قد يكون أمراً غير عملي، إضافة إلى أن معظم المواقع التي تتعرض للمملكة غالباً لا تتمتع بمصداقية أو تأثير.
+
+
+
+
+
+(البند السابع)
+إستعراض الأمر السامي رقم 4071/م ب وتاريخ 14/5/1431هـ، بشأن دراسة التوصيات الواردة في محضر اللجنة المشكلة بالأمر السامي رقم 9533 وتاريخ 20/11/1430هـ، لتحديد ضوابط إدراج الإعلاميين المسيئين للمملكة على قائمة المنع من الدخول للمملكة
+صدر الأمر السامي رقم 4071/م ب وتاريخ 14/5/1431هـ، بدراسة التوصيات الواردة في محضر اللجنة التي شكلت بالأمر السامي رقم 9533 وتاريخ 20/11/1430هـ من كل من وزارات (الداخلية ، الاستخبارات ، الخارجية ، الثقافة والاعلام ) والتي أجتمعت بمقر وزارة الداخلية يوم السبت 22/2/1431هـ، لتحديد ضوابط إدراج الإعلاميين المسيئين للمملكة في قائمة المنع من الدخول للمملكة وتوصلت الى التوصيات التالية : ـ
+ـ أهمية أن تكون هناك قاعدة بيانات عن الاعلاميين المسيئين للمملكة تشمل عدداً من النقاط بما يمكن من رسم استراتيجية للتعامل معهم .
+ـ أهمية التعرف على دوائر التأثير في دولة الاعلام المسيئ.
+ـ أهمية تحديد نوع الاساءة الموجهة للمملكة وأهدافها ودوافعها .
+ـ أهمية توظيف قاعدة البيانات لاستمالة وتصحيح موقف الاعلامي المسيئ كخطوة أولى ، واذا لم يتحقق المطلوب يتم الانتقال للخطوة الثانية المتمثلة في تفعيل الدبلوماسية ، واخيرا الادراج على قائمة المنع من دخول المملكة . 
+وقد تلقت اللجنة مرئيات صاحب السمو الملكي سفير خادم الحرمين الشريفين في لندن، حيث يرى سموه أن التوصيات التي صدرت من اللجنة مفيدة وهامة وبالذات البند المتعلق بقاعدة بيانات عن الصحفيين والتى من شأنها أن ترسم صورة واضحة عن الصحفيين وتوجهاتهم وسلوكياتهم الراهنة والمتوقعة ، ومعظم الصحفيين في العالم العربي في الوقت الراهن ليسوا من 
+النوع الأيدلوجي الذي كان سائداً في الخمسينات وحتى السبعينات، بل من النوع لذي يبحث عن معيشته، ويعمل في إطار المؤسسة فإن كانت معادية يكون معاديا والعكس وانه بالإستناد إلى قاعدة البيانات يمكن معرفة التوجهات العامة للمؤسسات الإعلامية والقائمين عليها والتوجهات المستقبلية للصحافيين، ومعه يمكن رسم إستراتيجية للتعامل معهم.
+ـ كما تلقت اللجنة مرئيات معالي وزير التجارة والصناعة الذي يؤيد ما جاء في المحضر وتحديدا ما ورد في الفقرة (4) عن أهمية توظيف قاعدة البيانات على الإعلامي المسئ للمملكة في رسم إستراتيجية لاستمالته وتصحيح مواقفه. حيث أن سياسة الإحتواء أفضل بكثير من سياسة المواجهة والتى لا بد من إعطائها الوقت الكافي في التعامل مع الصحفيين الأجانب
+ـ تلقت اللجنة مرئيات معالي وزير الثقافة والإعلام الذي يؤيد ويستحسن ما جاء فى محضر اللجنة ، ولاتوجد أية ملاحظات عليه. 
+
+
+
+
+
+
+(البند الثامن)
+إستعراض الأمر السامي رقم 25013/  ب وتاريخ 27/5/1431هـ، بشأن دراسة الكتاب الذي أصدرته صحيفة "وطن" بعنوان "الحرب والقرار
+صدر الأمر السامي رقم 25013/ب وتاريخ 27/5/1431هـ  القاضي بتزويد لجنة التنسيق فرع الاعلام الخارجى نسخة من برقية صاحب السمو الملكى رئيس الاستخبارات العامة المتضمنة مرئيات سموه بشأن ما نشرته صحيفة "وطن" الأمريكية عن صدور كتاب معنون باسم "الحرب والقرار" لمؤلفه دوغلاس فيث عن الحرب على العراق والذي يكشف فيه تفاصيل خطة أمريكية لتغيير أنظمة الحكم في عدد من الدول العربية والإسلامية ، بالاضافة للدراسة التقييمية التى بعثها صاحب السمو الملكى النائب الثانى لرئيس مجلس الوزراء وزيـر الداخليـة لما تضمنه الكتاب وما تم التوصل اليه من نتائج وتوصيات .
+ـ تلقت اللجنة مرئيات صاحب السمو الملكي سفير خادم الحرمين الشريفين في لندن، ويرى سموه أن الكتاب يندرج في إطار تبريري لسياسات بوش، ويسرد رؤية شخص محافظ وتفسيره للأحداث، وكيف أستطاع أن يوفر للرئيس الأمريكي أفضل النصائح التي تخدم أمريكا. ويرى سموه بأن التصريحات التي وردت من مسئولين في وزارة الدفاع مثل ريتشارد بيرل عن دعم المعارضة في الدول العربية، وتصريحات باول حول إعادة ترتيب المنطقة، وما قيل عن خطط لتغيير النظام في أمريكا، ليس إلا من قبل التكهنات وليس من السهل تطبيقها فى عهد الادارة الامريكية الجديدة ، وفيما يختص انشاء مركز أو معهد يختص بالدراسات الإقليمية والدولية الإستراتيجية، فان سموه يرى انه إقتراح هام وجدير بالدراسة.
+ـ كما تلقت اللجنة مرئيات معالي وزير التجارة والصناعة الذي يرى ان الدراسة والتقرير والتي تم اعدادها من وزارة الداخلية ورئاسة الإستخبارات العامة تضمنتا تحليلاً وافياً عن الموضوع ، ويتفق مع الآراء والتوصيات الواردة في تقرير رئاسة الإستخبارات العامة ، ويؤيد ما مرئيات وزارة الداخليـة على ضـرورة إنشـاء معهد أو مركز يختص بالدراسات الأمريكيـة والدوليــة 
+والإستراتيجية لدراسة أنظمة الدول الكبرى وسياساتها وخططها، وتوثيق تلك الدراسات ليكون لدى صانع القرار السياسي ما يستند عليه للتعامل مع مثل هذه الدراسات .
+ـ وتلقت اللجنة ايضا مرئيات معالي سفير المقام السامي في واشنطن الذي يرى أن الكتاب يعكس رؤية أحد أهم رموز المحافظين الجدد في وزارة الدفاع الأمريكية أبان فترة بوش الابن، حيث قام بتأليف الكتاب "الحرب والقرار" أساساً للدفاع عن الاتهامات التي وجهت إليه بالتلاعب بالمعلومات الإستخبارتية بهدف غزو العراق والتي أدت إلى تركه لوزارة الدفاع عام 2005م ، وانه يعكس رؤى المحافظين الجدد وجهات نظر موالية في الغالب لتوجهات حزب الليكود الإسرائيلي فيما يتعلق بقضايا الشرق الأوسط والذى نجح على قيام الولايات المتحدة بغزو العراق.
+ـ فقد المحافظون الجدد الكثير من مصداقيتهم في الفترة الأخيرة للرئيس الأمريكي بوش، وزاد الأمر سوءاً بالنسبة لهم أثناء الإدارة الأمريكية الحالية حيث أن أي أفكار أو مخططات لهم تجاه منطقة الشرق الأوسط لا يتعدى تداولها من قبل بعض المراكز الفكرية المحدودة التأثير.
+
+
+
+
+
+(البند التاسع)
+استعراض الامر السامى رقم 4192/م ب وتاريخ 19/5/1431هـ بشـأن دراسـة تقرير رئاسـة الاستخبارات العامة حول مواجهة صحيفة "الحياة العربية" الاسبوعية التى تصدر من تورنتو بكندا ويقوم عليها مجموعة من الشيعة المتطرفين من مؤسسة"الخوئى"
+ــ صدر الامر السامى الكريم رقم 4192/م ب وتاريخ 19/5/1431هـ بشـأن دراسـة تقرير رئاسـة الاستخبارات العامة حول مواجهة صحيفة "الحياة العربية" الاسبوعية التى تصدر من تورنتو بكندا وتوزع مجانا ويقوم عليها مجموعة من الشيعة المتطرفين من مؤسسة"الخوئى" التى يرأسها د. خليل الطبطبائي ، وتمارس نشاطا اعلاميا ضد المملكة وذلك من خلال اعادة نشر المقالات التى تتناول المملكة ومسؤوليها بشكل سلبي .
+ــ ويقترح التقرير القيام بالاجراء التالى : ــ
+1ـ دعم صحيفتى "البلاد ،والمغترب العربى" والتى تصدران فى كندا ولهما توجه مضاد لصحيفة الحياة العربية والسياسة الايرانية .
+2ـ  يتم دعم الصحيفتين المشار اليهما ، من خلال اللجنة الدائمة لمساعدة الاعلاميين بوزارة الثقافة والاعلام بمبلغ (36) ألف دولار سنوى ولمدة خمس سنوات ، وان يتم تقييم اداء الصحيفتين بعد سنتين، ومن خلال ذلك التقييم تتم التوصية باستمرار الدعم أو تعديله أو ايقافه .
+3ـ قيام سفارة المقام السامى فى اوتاوا بالضغط الحذر على مؤسسات الحج والعمرة التى تتعامل أو تقوم بنشر اعلانات بصحيفة الحياة العربية .
+وقد تلقـت اللجنة مرئيات سفارة المقام السامى فى اوتاوا والمتضمنة تأييدها للفقرتين (2،1) ، اما بالنسبة للفقرة (3) فان السـفارة ترى ان ذلك يضعها فى موقف حرج امام الحكومـة الكنديـة مقارنـة 
+بمحدودية تأثير الصحيفة والتى تُعد من الصحف الصفراء التى توزع مجانا وان انتشارها لايتعدى الجاليه الشيعية  "عراقية ، لبنانية" فى مقاطعتى كويبك وانتاريو .
+وقد تلقت اللجنة مرئيات معالى وزير التجارة  المتضمنة تأييد تقديم الدعم للصحيفتين المشار اليهما  وان يتم استخدام مثل هذا الاسلوب فى مواجهة الصحف أو وسائل الاعلام المماثلة .
+كما تلقت اللجنة مرئيات معالى وزير الثقافة والاعلام المتضمنة تأييد تقديم الدعم للصحيفتين المشار اليهما وان يكون التقييم سنوى لمعرفة مدى تأثير هذا الدعم على نهجها التحريرى فى مساندة المملكة ، وهى مدة كافية للتقييم ، وان يكون الدعم المقترح عن طريق مباشر من خلال اشتراك وزارة الثقافة والاعلام فى الصحيفتين ، وان يكون هناك تنسيق بين السفارة ووزارة الثقافة والاعلام لتمرير بعض الرسائل الاعلامية لنشرها فى الصحيفتين .
+وتلقـت اللجنة مرئيات معالى سفير خادم الحرمين الشريفين فى واشنطن بتأييد مرئيات السفارة فى اوتاوا حول الفقرة 3،1 ، اما بالنسبة للفقرة الثانية فانه يرى ان يتم دعم الصحيفتين لمدة سنة واحدة بدون الالتزام وان يتم تقيمهما خلال الستة أو التسعة شهور  الاولى .
+  
+
+
+
+
+
+(البند العاشر )
+مناقشة اسباب ضعف حضور الاعلام السعودي في التأثير على الساحة الاعلامية وتداعياته الخطيرة على تشكيل رأي سياسي سلبي تجاه سياسات المملكة الداخلية والاقليمية والدولية ، وبحث آليات تنشيطه  
+لوحظ انه منذ تغير نظامي الحكم في تونس ومصر فقد شهدت الساحة الاعلامية بشتى اشكالها فيض من الاخبار والاراء في الشأن السعودي الداخلي والخارجي ولوحظ ضعف أن لم يكن غياب لدور الاعلام السعودى الفعال في التأثير على الساحة الاعلامية ، وان تداعياته خطيرة على صنع الرأي العام داخليا وعربيا ودوليا ، اضافة الى انها قد تؤدي الى تشكيل رأي عام سلبي تجاه سياسات المملكة على جميع الاصعدة .
+وقد تلقت اللجنة مر</pre></div></div>
+        <div class="col-md-6">
+<p>This is a doc/docx/xls/xlsx/pdf document. To download it, click the link below</p>
+<p><a href="/saudi-cables/docs/d00fba5482dbd43a099ab4c9aa09d658_بنود لجنة التنسيق.doc">Download d00fba5482dbd43a099ab4c9aa09d658_بنود لجنة التنسيق.doc (157KB)</a></p></div>
+</div>
+    </div> 
+</div>
+<script type="text/javascript" src="/assets/mootools-core-and-more.js"></script>
+<script type="text/javascript" src="/assets/efatmarker.min.js"></script>
+    <div id="efm-button">
+        <div id="efm-menu">
+            <h3 style="margin:0 0 2px 0">e-Highlighter</h3>
+            <a id="efm-permalink" class="efm-need-highlight" href="" style="margin-bottom:0;padding-bottom:0;"></a>
+            <p style="margin-top:0;padding-top:0" class="efm-need-highlight">Click to send permalink to address bar, or right-click to to copy permalink.</p>
+            <p style="margin:0.5em 0;padding:0;border-top:1px dotted #ccc;height:1px"></p>
+            <a id="efm-unhighlightall" class="efm-need-highlight">Un-highlight all</a>
+            <a id="efm-unhighlight">Un-highlight selection<span>u</span></a>
+            <a id="efm-highlight">Highlight selection<span>h</span></a>
+        </div>
+    </div>
+<script type="text/javascript">
+            (function(){
+                    window.addEvent('domready', function(){
+                    var markerButton = $('efm-button');
+                    if ( markerButton ) {
+                        eMarker = new EFatMarker($('uniquer'));
+                        eMarker.tokenToSpans();
+                        markerButton.addEvent('mousedown', function(){
+                            eMarker.interpretSelection(true);
+                            return false;
+                        });
+
+                        $('efm-unhighlightall').addEvent('mousedown', function(){
+                            eMarker.unhighlightAll(true);
+                            return false;
+                        });
+                        $('efm-unhighlight').addEvent('mousedown', function(){
+                            eMarker.unhighlightSelection(true);
+                            return false;
+                        });
+			$('efm-highlight').addEvent('mousedown', function(){
+                            eMarker.highlightSelection(true);
+                            return false;
+                        });
+                        $('efm-permalink').addEvent('mousedown', function(){
+                            window.location.href = this.href;
+                            return false;
+                        });
+			if (Keyboard) {
+                            var keyboard = new Keyboard({
+                                defaultEventType: 'keyup',
+                                events: {
+                                    'h': function(){
+                                        eMarker.highlightSelection(true);
+                                    },
+                                    'u': function(){
+                                        eMarker.unhighlightSelection(true);
+                                    }
+                                }
+                            });
+                            keyboard.activate();
+                        }
+			eMarker.syncDOM();
+                        if (eMarker.hasSpans()) {
+                            var scroll = new Fx.Scroll(
+                                window, {
+                                    offset: {
+                                        'x': 0,'y': -100
+                                    }
+                                }
+                            ),
+			    highlights = $$('#uniquer .efm-hi');
+                            if (highlights.length > 0) {
+                                scroll.toElement(highlights[0]);
+                            }
+                        }
+                    }
+                });
+            })();
+        </script>
+
+<script src="/bootstrap/js/jquery.min.js"></script>
+<script type="text/javascript">
+	var $j = jQuery.noConflict();
+</script>
+<script src="/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+
